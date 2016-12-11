@@ -71,11 +71,11 @@ deploy:
   type: git
   repository: git@github.com:sssvip/sssvip.github.io.git #你的GitHub Pages仓库
 
-
+# 自动生成sitemap
 sitemap:
-    path: sitemap.xml
+  path: sitemap.xml
 baidusitemap:
-    path: baidusitemap.xm
+  path: baidusitemap.xml
 
 feed:
     type: atom

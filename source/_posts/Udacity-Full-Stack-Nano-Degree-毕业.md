@@ -9,9 +9,10 @@ tags:
 ---
 
 结业啦，结业啦！
-**踩了好多坑**
+**一坑一坑爬呀爬**
 爬一坑：全是python相关语言，我是一个纯Java“马龙”呀，不过好在都是共同的，我在java能实现的逻辑，在python也能实现，哈哈，能感觉到共通之处。
 爬二坑：从做项目开始，全是英文资料，现在我已经克服了英文“恐惧症”，从看[Google App Engine Python API](https://cloud.google.com/appengine/docs/python/apis)开始，到[Knockoutjs](http://knockoutjs.com/documentation/introduction.html),到[Github Developer API](https://developer.github.com/v3/),再到[Google Map API](https://developers.google.com/maps/documentation/javascript/examples/map-simple)等等一些列英文文档，现在阅读那叫一个畅快,慢慢的阅读官方文档，学习效率和质量真的是最好、最快，没有之一。
+
 就像最近正在精读的[Spring MVC官方文档](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-async),丝毫没有恐惧心理了，这种感觉真心让人舒服，能感受到好多前辈们在设计上和编码上的高超技艺！
 
 <!-- more -->
