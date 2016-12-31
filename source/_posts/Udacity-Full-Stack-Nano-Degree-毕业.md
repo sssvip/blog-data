@@ -6,6 +6,7 @@ tags:
 - graduate
 - FSND
 - Https
+- 随笔
 ---
 
 结业啦，结业啦！
@@ -30,11 +31,13 @@ tags:
 #### 全栈工程师篇
 当我最后一个项目通过Review不久，我收到了它！
 Hi David, Congratulations on completing all of the projects in the Full Stack Web Developer Nanodegree!
-![congratulation.jpg](congratulation.jpg)
+![congratulation.jpg](https://file.dxscx.com/2016/12/8/congratulation.jpg)
+
 我不慌不慢的把我的身份认证了，安安静静的等待通过最后的审核！
-![graduation.jpg](graduation.jpg)
+![graduation.jpg](https://file.dxscx.com/2016/12/8/graduation.jpg)
 
 叫我去领取“毕业大礼包”？我还不去？哈哈，国外的学位结业仪式还是听“隆重的”。
 
-![thirt.jpg](thirt.jpg)
+![thirt.jpg](https://file.dxscx.com/2016/12/8/thirt.jpg)
 我领取了一件M号udacity定制的毕业“学士服”，准备将它好好收藏在狭小的衣柜里！
+

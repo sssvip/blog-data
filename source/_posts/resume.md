@@ -4,26 +4,31 @@ tags:
 - resume
 - udacity
 - david
-category: 
-- resume
 ---
 
-# 校招：Java研发工程师
+# Java研发工程师
 ### 基本信息
-> 姓&nbsp;名:唐\* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 出生&nbsp;年月:1995.04 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电&nbsp;话:**此处不公开** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专&nbsp;业:物联网工程 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;学&nbsp;历:本科 &nbsp;&nbsp;&nbsp;&nbsp;
+> 姓&nbsp;名:唐\* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 出生&nbsp;年月:1995.04 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电&nbsp;话:**此处不公开** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专&nbsp;业:物联网工程 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;学&nbsp;历:本科 &nbsp;&nbsp;&nbsp;&nbsp; 毕业时间:**2017.06**
 
 >博&nbsp;客:[https://blog.dxscx.com/](https://blog.dxscx.com/)&nbsp;&nbsp;&nbsp;&nbsp; Github:[https://github.com/sssvip](https://github.com/sssvip) &nbsp;&nbsp;&nbsp;&nbsp;院&nbsp;校:重庆邮电大学移通学院
 
 >邮&nbsp;箱:[admin@dxscx.com](mailto:admin@dxscx.com)
 
 <!-- more -->
-### 最新学习经历
-Udacity 付费学习会员，12.5日获得**全栈工程师**学位。(全英文学习、项目开发，查看学习国外知识没有障碍)
-简单介绍在**全栈工程师**认证学位的9个项目中运用到的技术或技术点：
-> **Single-Page App**,**响应式Web**,[Google App Engine API](https://cloud.google.com/appengine/docs/python/apis),[Google Map API](https://developers.google.com/maps/documentation/javascript/examples/map-simple),**Oauth2安全**,[Knockoutjs](http://knockoutjs.com/documentation/introduction.html),[Github Developer API](https://developer.github.com/v3/),
-**以及基于AWS Ubuntu服务器的全配置**等等从前端设计到后台开发一些列技术应用！
+### 最新教育经历
+[Udacity](http://cn.udacity.com/)付费学习会员，12.11日获得**全栈工程师**学位。[查看证书](http://down.dxscx.com/nano-degree.pdf)
+> 全英文项目学习、研发，重视自我学习研究能力
 
+简单介绍在**全栈工程师**认证学位的9个项目中的几个:
 
+1. [Neighborhood-Map Project](https://github.com/sssvip/udacity-neighborhood-map)
+> 响应式布局、重点运用Google Map做地图数据源，对地图做标记，AJAX异步请求三方数据作为地图数据补充说明等等。
+2. [Linux-Server-Configuration Project](https://github.com/sssvip/udacity-linux-server-configuration)
+> 基于亚马逊AWS服务器做服务器配置包括但不限于:Postgres、Apache2、SSH安全等配置与应用。
+3. [Catalog Project](https://github.com/sssvip/fullstack-nanodegree-vm/tree/master/vagrant/catalog)
+> 对于餐厅的管理项目，基于OAuth2.0的安全认证机制，采用Github Developer API作用户认证，简化用户注册、登录记各种各样密码。
+4. [Tournament Project](https://github.com/sssvip/fullstack-nanodegree-vm/tree/master/vagrant/tournament)
+> 基于比赛游戏的数据库设计，以及对游戏接口的实现。
 
 ### 专业相关
 参加过**“2016中国数据库技术大会”，“droidcon北京2016安卓技术大会”**，**技术热！**
@@ -33,12 +38,14 @@ Udacity 付费学习会员，12.5日获得**全栈工程师**学位。(全英文
 
 > **Database**:目前重点运用Postgresql,常用Mysql,了解Oracle。
 
-> **追求git风**:git,github,gitlab,基于gitbook制作的markdonw讲义[http://markdown.dxscx.com](http://markdown.dxscx.com),hexo博客(markdown),参与过开源项目的pull。
+> **测试**:对于开发中的测试，常用Junit做单元测试;Postman等做API测试，并常注重自动化测试。
 
-> **其他**:熟练使用Thymeleaf模版技术,熟练使用Ubuntu,Docker,Nginx等，目前在个人站点[https://www.dxscx.com](https://www.dxscx.com)均有运用，良好的编码风格，风格源于Google Java Code Style，注重关注点分离开发原则，注重编码质量和效率。
+> **追求Git风**：git,github,gitlab等,运用于基于gitbook制作的[markdonw讲义](http://markdown.dxscx.com),hexo博客(markdown),**参与过开源项目的pull**。
+
+> **其他**:熟练使用Thymeleaf模版技术,熟练使用Maven、Svn、Ubuntu,Docker,Nginx等，目前在[个人站点](https://www.dxscx.com)均有运用，良好的编码风格，风格源于Google Java Code Style，注重关注点分离开发原则，注重编码质量和效率。
 > 目前正在**精读**:**Spring MVC官方文档**和阿里巴巴韩陆所著《**Java RESTful Web Service**》
 
-> 技能树不再列举，重要的是独立解决问题、学习的能力和坚持学习很重要！
+**技能树不再列举,重要的是从官方文档获取知识,独立思考、学习,解决问题、团队协作能力很重要!**
 
 ### 实习经历
 
@@ -55,6 +62,13 @@ Udacity 付费学习会员，12.5日获得**全栈工程师**学位。(全英文
 
 > 参与二期项目保单登记接口模型重构，SQL 批处理，主要运用**Java**相关技术开发多线程处理中国人寿 1000W+数据多任务并发处理、连接池开发及性能微调。 
 
+### 在校项目经历
+
+|时间|项目名称|团队人数|职位|
+|:--:|:--:|:--:|:--:|
+|2016.04-2016.06|基于Java服务端的Android点餐APP|1人|Android开发工程师|
+|2015.07-2015.11|远景学院教务管理系统(Web)|5人|总负责人|
+
 ### 主要荣誉
 |时间|大赛名称|荣誉|
 |:--:|:--:|:--:|
@@ -62,7 +76,7 @@ Udacity 付费学习会员，12.5日获得**全栈工程师**学位。(全英文
 
 >信息检索能力：近“学术”论文，需要众多基础理论、参考文献支撑，快速、准确检索学习同样重要。
 
-> 快速学习、实现能力：2小时快速学习专业排版软件Latex 并分享于队友,完成 22 页全英文论文的图文编写、排版，在项目中主要负责算法编程实现，及图形支持。
+> 快速学习、实现能力：2小时快速学习专业排版软件Latex 并分享于队友,完成 22 页全英文论文的图文编写、排版,在项目团队中主要负责算法编程实现,及图形编程实现支持。
 
 
 |时间|大赛名称|荣誉|
@@ -70,3 +84,7 @@ Udacity 付费学习会员，12.5日获得**全栈工程师**学位。(全英文
 |2015.10|2015年全国高教杯大学生数学建模竞赛|国家二等奖|
 |2016.05|第九届大学生计算机设计大赛重庆赛区|省级三等奖|
 |2016.03|蓝桥杯全国软件和信息技术专业人才大赛|省级三等奖|
+
+构建‘两个支柱”：一个是科学，一个是人文，向这个方向完善自己
+
+**谢谢您用宝贵的时间阅读！**
