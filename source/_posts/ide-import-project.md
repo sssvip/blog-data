@@ -1,12 +1,13 @@
 date: 2017/01/03
-title: Gitlab创建项目并导入IDE
+title: JAVA后端工作流推荐二--Gitlab创建项目并导入IDE
 tags: 
 - gitlab
 - idea
 - import
 ---
+更多JAVA后端工作流推荐内容参见:[JAVA后端工作流推荐系列---目录导航](/2017/01/09/workflow/)
 
-此文阅读完效果:
+#### 此文阅读完效果:
 1. Gitlab的基本使用
 2. IDEA的基本使用
 3. Git的基本使用
@@ -66,7 +67,7 @@ $
 
 ```
 
-### 添加[上一步](springboot.md)构建的项目初始文件至仓库，进行版本管理
+### 添加[上一步](/2017/01/03/springboot/)构建的项目初始文件至仓库，进行版本管理
 将上一步构建好的项目初始文件移动至helloworld文件夹，最终效果如下：
 ![local-init-project](https://sssvip.github.io/img/ide-import-project/local-init-project.png)
 

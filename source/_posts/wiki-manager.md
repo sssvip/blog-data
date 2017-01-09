@@ -1,13 +1,14 @@
-date: 2017/01/05
-title: Gitlab中Wiki文档同项目空间管理
+date: 2017/01/06
+title: JAVA后端工作流推荐四--Gitlab中Wiki文档同项目空间管理
 tags: 
 - markdown
 - wiki
 - gitlab
 - terminal
 ---
+更多JAVA后端工作流推荐内容参见:[JAVA后端工作流推荐系列---目录导航](/2017/01/09/workflow/)
 
-此文阅读完效果:
+#### 此文阅读完效果:
 
 1. Wiki基于项目同目录管理
 2. 文本编辑效率提升

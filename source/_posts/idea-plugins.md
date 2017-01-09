@@ -1,5 +1,5 @@
 date: 2017/01/05
-title: IDEA安装Checkstyle、FindBugs、Markdown等插件及其使用
+title: JAVA后端工作流推荐三--IDEA安装Checkstyle、FindBugs、Markdown等插件及其使用
 tags: 
 - markdown
 - idea
@@ -10,7 +10,9 @@ tags:
 - codestyle
 ---
 
-此文阅读完效果:
+更多JAVA后端工作流推荐内容参见:[JAVA后端工作流推荐系列---目录导航](/2017/01/09/workflow/)
+
+#### 此文阅读完效果:
 
 1. 基于在IDEA中安装Markdown、CheckStyle、FindBugs等插件
 2. 基于在IDEA中书写Markdown文档、基于CheckStyle代码静态分析、基于FindBugs查找项目中潜在Bug

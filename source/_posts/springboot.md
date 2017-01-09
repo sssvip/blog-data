@@ -1,12 +1,14 @@
 date: 2017/01/03
-title: 基于SpringBoot快速项目构建
+title: JAVA后端工作流推荐一--基于SpringBoot快速项目构建
 tags: 
 - springboot
 - gradle
 - spring
 - starter
 ---
-此文阅读完效果:
+更多JAVA后端工作流推荐内容参见:[JAVA后端工作流推荐系列---目录导航](2017/01/09/workflow/)
+
+#### 此文阅读完效果:
 
 1. 对SpringBoot极其部分依赖有初步认识
 2. 对gradle有初步认识
