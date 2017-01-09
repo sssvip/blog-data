@@ -8,11 +8,12 @@
 		isCategory: <%=is_category()%>,
 		open_in_new: <%=theme.open_in_new%>,
 		root: "<%=config.root%>",
-		innerArchive: <%=theme.smart_menu.innerArchive ? true : false%>
+		innerArchive: <%=theme.smart_menu.innerArchive ? true : false%>,
+		showTags: <%=(theme.slider && theme.slider.showTags) ? true : false%>
 	}
 </script>
 
-<%- js('./main.js') %>
+<%- partial('script') %>
 
 <% if (theme.mathjax){ %>
 <%- partial('mathjax') %>

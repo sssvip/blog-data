@@ -3,13 +3,17 @@
     <% if (post.link || post.title){ %>
       <header class="article-header">
         <%- partial('post/title', {class_name: 'article-title'}) %>
+        <% if (!post.noDate){ %>
         <%- partial('post/date', {class_name: 'archive-article-date', date_format: null}) %>
+        <% } %>
       </header>
     <% } %>
     <div class="article-entry" itemprop="articleBody">
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
-        <a class="article-more-a" <% if (!theme.excerpt_link){ %>class="hidden"<% } %> href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %> >></a>
+        <% if (theme.excerpt_link) { %>
+          <a class="article-more-a" href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %> >></a>
+        <% } %>
       <% } else { %>
         <%- post.content %>
       <% } %>
@@ -51,7 +55,7 @@
       <%if(post.top){%>
         <div class="article-pop-out tagcloud">
           <i class="icon-tuding"></i>
-          <a>置顶</a>
+          <a class="article-tag-list-link color3">置顶</a>
         </div>
       <% } %>
       <%- partial('post/tag') %>
@@ -77,12 +81,16 @@
 <%- partial('post/share_addthis') %>
 <% } %>
 
-<% if (!index && theme.duoshuo && post.comments){ %>
-<%- partial('post/duoshuo', {
-    key: post.slug,
-    title: post.title,
-    url: config.url+url_for(post.path)
-  }) %>
+<% if (!index){ %>
+  <% if (theme.duoshuo && post.comments){ %>
+  <%- partial('post/duoshuo', {
+      key: post.slug,
+      title: post.title,
+      url: config.url+url_for(post.path)
+    }) %>
+  <% } else { %>
+    <div class="duoshuo"></div>
+  <% } %>
 <% } %>
 
 <% if (!index && post.comments && config.disqus_shortname){ %>

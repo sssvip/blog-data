@@ -1,5 +1,3 @@
-import {decode} from './util'
-
 function init() {
 	// 由于hexo分页不支持，手工美化
 	var $nav = document.querySelector('#page-nav')
@@ -18,18 +16,10 @@ function init() {
 		})
 	}
 
-	// 标签
-	var $tags = document.querySelectorAll('.tagcloud a')
-	$tags.forEach(($em) => {
-		$em.style.fontSize = '12px'
-		var num = $em.innerHTML.length % 5 + 1
-		$em.className = 'color' + num
-	})
-
 	// about me 转义
 	var $aboutme = document.querySelector('#js-aboutme')
 	if ($aboutme && $aboutme.length !== 0) {
-		$aboutme.innerHTML = decode($aboutme.innerHTML)
+		$aboutme.innerHTML = $aboutme.innerText
 	}
 }
 
