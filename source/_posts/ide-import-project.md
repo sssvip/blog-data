@@ -1,4 +1,4 @@
-date: 2017/01/03
+date: 2017/01/04
 title: JAVA后端工作流推荐二--Gitlab创建项目并导入IDE
 tags: 
 - gitlab
@@ -179,3 +179,7 @@ $
 
 **提示：** 可能存在意外的是注意看**Event Log**，如果出现类似情况(也许你没有)，将版本控制注册，后面就可以很好的使用Gui的Git,一般情况下可以不用敲git命令了，不过还是建议大家多使用git命令。
 ![idea-import-project-helloworld-git](https://sssvip.github.io/img/ide-import-project/idea-import-project-helloworld-git.png)
+
+继续查看下一篇: [JAVA后端工作流推荐三--IDEA插件安装及使用](/2017/01/05/idea-plugins/)
+
+原文地址: [https://blog.dxscx.com/2017/01/04/ide-import-project/](https://blog.dxscx.com/2017/01/04/ide-import-project/)

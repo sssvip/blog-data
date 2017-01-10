@@ -66,3 +66,7 @@ Terminal中命令不再解释，为简单的版本管理流程，这里截图想
 ![wiki-init-clone-push-preview](https://sssvip.github.io/img/wiki-manager/wiki-init-clone-push-preview.png)
 
 最终你的页面已经push进gitlab的Wiki啦，流程大致是这样，在项目中写好Wiki是一大挑战，需要针对项目进行结构化的管理。
+
+继续查看下一篇: [JAVA后端工作流推荐五--Gitlab Runner对SpringBoot应用进行持续集成--理论篇](/2017/01/09/gitlab-runner/)
+
+原文地址: [https://blog.dxscx.com/2017/01/06/wiki-manager/](https://blog.dxscx.com/2017/01/06/wiki-manager/)

@@ -162,4 +162,6 @@ Third Project- **Multi User Blog**(Not Finished)
 
 再说一句就是**希望你一样学得开心，学习就是要靠自己，走弯路也不怕，你走的坑同样会成为你的财富。**
 
-**更多消息请关注我：**：[http://sssvip.github.io](http://sssvip.github.io "http://sssvip.github.io")
+**更多消息请关注我：**：[https://blog.dxscx.com](https://blog.dxscx.com "https://blog.dxscx.com")
+
+原文地址: [https://blog.dxscx.com/2016/10/18/share/](https://blog.dxscx.com/2016/10/18/share/)

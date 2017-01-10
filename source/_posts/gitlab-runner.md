@@ -167,9 +167,6 @@ running already the config should be automatically reloaded!
 
 		我们既然在写CI过程的脚本，肯定不想脚本出现语法错误，CI脚本语法可以查看[文档](http://docs.gitlab.com/ce/ci/yaml/README.html)，就算你熟悉了其语法，难免还是会出错，所以我们可以在写脚本时进行检查，在此页面[https://gitlab.com/ci/lint](https://gitlab.com/ci/lint)可进行语法检查。
 
-更多内容给查看:[Gitlab Runner在Gradle构建项目中的应用](/2017/01/09/gitlab-runner-gradle/)
+继续查看下一篇: [JAVA后端工作流推荐六--Gitlab Runner在Gradle构建项目中的应用--实战篇](/2017/01/09/gitlab-runner-gradle/)
 
-
-
-
-
+原文地址: [https://blog.dxscx.com/2017/01/09/gitlab-runner/](https://blog.dxscx.com/2017/01/09/gitlab-runner/)

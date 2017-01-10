@@ -97,3 +97,7 @@ Markdown编辑语法和使用不再赘述，推荐查看上次会议分享的[ht
 这里能看见我们在编辑的时候可以同时预览，这也就是我们安装插件的好处，同时可以看到有视图切换等等按钮，这里简单介绍Markdown的使用，后面会结合在同项目下直接编辑WIKI,同一IDEA下搞定工作流，免去切软件切屏等等麻烦。
 
 此篇文章不仅仅让你学会了IDEA Checkstyle插件安装和使用，这能推广到IDEA其它插件的安装和使用，都是大同小异的，更多的东西一起去探索。
+
+继续查看下一篇: [JAVA后端工作流推荐四--Gitlab中Wiki文档同项目空间管理](/2017/01/05/wiki-manager/)
+
+原文地址: [https://blog.dxscx.com/2017/01/05/idea-plugins/](https://blog.dxscx.com/2017/01/05/idea-plugins/)

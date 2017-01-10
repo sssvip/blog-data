@@ -94,3 +94,7 @@ Spring Boot takes an opinionated view of building production-ready Spring applic
 **提示**：如果本地未使用过springboot 1.4.3.RELEASE初次构建需要等待下载依赖的jar包。
 
 **再说一句**：更多的SpringBoot的使用可以查看[SpringBoot官方文档](http://docs.spring.io/spring-boot/docs/1.4.3.RELEASE/reference/htmlsingle/)，说明非常的详细，建议通篇浏览，解决问题更快捷高效。
+
+继续查看下一篇: [JAVA后端工作流推荐二--Gitlab创建项目并导入IDE](/2017/01/03/ide-import-project/)
+
+原文地址: [https://blog.dxscx.com/2017/01/03/springboot/](https://blog.dxscx.com/2017/01/03/springboot/)

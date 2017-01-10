@@ -217,3 +217,5 @@ tags:
 5.Gitlab CI简单小结
 
 整个CI过程最重要的两个关键是`.gitlab-ci.yml持续集成配置脚本`和`Gitlab Runner`,Gitlab CI在官方推荐的Runner这一块的持续集成主要通过两个对持续集成过程进行控制，写好一个`.gitlab-ci.yml`脚本文件，选好一个适合项目的Gitlab Runner executor都是非常重要的，这里可以多查看官方文档的说明，做到适合项目的力度就ok,不必追求过度复杂和自动化，根据项目按需选择即可。
+
+原文地址: [https://blog.dxscx.com/2017/01/09/gitlab-runner-gradle/](https://blog.dxscx.com/2017/01/09/gitlab-runner-gradle/)

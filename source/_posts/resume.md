@@ -88,3 +88,5 @@ tags:
 构建‘两个支柱”：一个是科学，一个是人文，向这个方向完善自己
 
 **谢谢您用宝贵的时间阅读！**
+
+原文地址: [https://blog.dxscx.com/2016/12/09/resume/](https://blog.dxscx.com/2016/12/09/resume/)

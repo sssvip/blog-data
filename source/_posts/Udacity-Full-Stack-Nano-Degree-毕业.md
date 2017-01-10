@@ -41,3 +41,4 @@ Hi David, Congratulations on completing all of the projects in the Full Stack We
 ![thirt.jpg](https://file.dxscx.com/2016/12/8/thirt.jpg)
 我领取了一件M号udacity定制的毕业“学士服”，准备将它好好收藏在狭小的衣柜里！
 
+原文地址: [https://blog.dxscx.com/2016-12-08/Udacity Full Stack Nano Degree 毕业/](https://blog.dxscx.com/2016/12/08/Udacity-Full-Stack-Nano-Degree-%E6%AF%95%E4%B8%9A/)
