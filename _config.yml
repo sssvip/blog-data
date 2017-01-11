@@ -78,9 +78,13 @@ baidusitemap:
   path: baidusitemap.xml
 
 feed:
-    type: atom
-    path: atom.xml
-    limit: 100
+  type: atom
+  path: atom.xml
+  limit: 20
+  #type 表示类型, 是 atom 还是 rss2.
+  #path 表示 Feed 路径
+  #limit 最多多少篇最近文章
+
 
 jsonContent:
     meta: false
