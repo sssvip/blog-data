@@ -4,8 +4,8 @@
 
 # Site
 title: David's Blog
-subtitle: 全世界太大，不断去寻找它。
-description: David's Blog,托管于github,谨慎关注,全世界太大，不断去寻找它。
+subtitle: 全世界太大，不断去追寻。
+description: David's Blog,托管于github,谨慎关注,全世界太大，不断去追寻。
 author: David
 language:
 timezone:
@@ -93,7 +93,7 @@ jsonContent:
       title: true
       date: true
       path: true
-      text: true
+      text: false
       raw: false
       content: false
       slug: false
