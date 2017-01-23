@@ -1,4 +1,4 @@
-date: 2017/1/17
+date: 2017/1/16
 title: 算法4一起来--一步一步实现List接口--MiniArrayList初步实现
 tags: 
 - algorithm
@@ -61,5 +61,5 @@ in practice,I found can't find all issue then fix it, it must to step by step. s
 
 更多参见: [算法4系列计划](https://blog.dxscx.com/2017/01/12/algorithm/plan/)
 
-原文地址: [https://blog.dxscx.com/2017/01/17/algorithm/fundamental/list/arraylist/MiniArrayList/](https://blog.dxscx.com/2017/01/17/algorithm/fundamental/list/arraylist/MiniArrayList/)
+原文地址: [https://blog.dxscx.com/2017/01/16/algorithm/fundamental/list/arraylist/MiniArrayList/](https://blog.dxscx.com/2017/01/16/algorithm/fundamental/list/arraylist/MiniArrayList/)
 

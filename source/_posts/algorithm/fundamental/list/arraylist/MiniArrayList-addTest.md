@@ -16,6 +16,8 @@ MiniArrayList是实现List接口，初步实现，未考虑太多，简化初步
 
 <!-- more -->
 
+<div id="google_translate_element"></div>
+
 ### 3. addTest
 reference API: 
 
@@ -25,7 +27,7 @@ reference API:
 - toString() --output data as String
 
 #### a. addTest() 添加方法对比小测
-```html
+```java
 @Test
 public void addTest() {
     MiniArrayList<String> miniArrayList = new MiniArrayList<String>();
@@ -67,7 +69,7 @@ more issue detail see: [https://github.com/sssvip/algorithms4th/issues](https://
 **how to solve the issues:?**
  
 - issue #1: **solve incorrect recursion**
-  ```html
+  ```java
   public int size() {
       return this.size(); --> return this.size; 
     }
@@ -79,7 +81,7 @@ more issue detail see: [https://github.com/sssvip/algorithms4th/issues](https://
          class AbstractList,AbstractCollection etc. I found the method in the AbstractCollection class.
          
         AbstractCollection class's toString() code as follow:
-        ```html
+        ```java
         public String toString() {
             Iterator<E> it = iterator();
             if (! it.hasNext())
@@ -97,7 +99,7 @@ more issue detail see: [https://github.com/sssvip/algorithms4th/issues](https://
          }
         ```
     3. Analyze this situation I add toString method in MiniArrayList,code as follow:
-       ```html
+       ```java
        @Override
        public String toString() {
            if (this.size < 1) {
@@ -120,13 +122,13 @@ more issue detail see: [https://github.com/sssvip/algorithms4th/issues](https://
     2. I must to see ArrayList class's toArray(),I guess it must handled the data array.
     3. After see ArrayList class's toArray(),That's a surprise,oh my god,I didn't think I should copy the value data to user,I just return the Object[].
     4. Let's see the code of ArrayList class's toArray():
-        ```html
+        ```java
         public Object[] toArray() {
             return Arrays.copyOf(elementData, size);
         }
         ```
     5. So I update MiniArrayList toArray() as follow:
-        ```html
+        ```java
         @Override
         public Object[] toArray() {
            return data; -->Arrays.copyOf(data, size);
@@ -135,7 +137,7 @@ more issue detail see: [https://github.com/sssvip/algorithms4th/issues](https://
         
 #### c. addTest() Run again
     
-```html
+```java
 @Test
 public void addTest() {
     MiniArrayList<String> miniArrayList = new MiniArrayList<String>();

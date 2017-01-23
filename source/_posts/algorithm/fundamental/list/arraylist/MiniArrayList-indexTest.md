@@ -16,6 +16,8 @@ MiniArrayList是实现List接口，初步实现，未考虑太多，简化初步
 
 <!-- more -->
 
+<div id="google_translate_element"></div>
+
 ### 4. indexTest
  reference API: 
 
@@ -29,13 +31,13 @@ MiniArrayList是实现List接口，初步实现，未考虑太多，简化初步
 
 first check the code from repository.
 
-```html
+```java
 git checkout MiniArrayList_indexTest
 ```
 
 Then in the MiniArrayListCompareTest.java you will find a indexTest method. code as follow:
 
-```html
+```java
 @Test
 public void indexTest() {
     MiniArrayList<String> miniArrayList = new MiniArrayList<String>();
@@ -86,7 +88,7 @@ MiniArrayList lastIndexOf() in for cycle had a incorrect usage that control the 
 
     Open the lastIndexOf method source code will find the error easy.
 
-    ```html
+    ```java
     @Override
     public int lastIndexOf(Object o) {
         for (int i = size; i > 0; i++) {  //--> for (int i = size-1; i >= 0; i--)
@@ -97,23 +99,20 @@ MiniArrayList lastIndexOf() in for cycle had a incorrect usage that control the 
         return -1;
     }
     ```
-    
-    This is clearly mistake to control the value of i. why it will throw NullPointerExcption? Just because first enter for cycle,
-
-    data[size] just a null value,it should be data[size-1].As we know,null value to invoke equals method will throw NullPointerException.
+    This is clearly mistake to control the value of i. why it will throw NullPointerExcption? Just because first enter for cycle,data[size] just a null value,it should be data[size-1].As we know,null value to invoke equals method will throw NullPointerException.
 
     So fix it via `for (int i = size-1; i >= 0; i--)`
 
 #### c. indexTest() Run again
 
-checkout the fix code use follow comman:
-```html
+checkout the modified code use the command as follow:
+```java
 check out MiniArrayList_indexTest_fixed
 ```
 
 run indexTest method in MiniArrayListCompareTest again,you will find the output will consistent with ArrayList's. 
 
-```html
+```java
 @Test
 public void indexTest() {
     MiniArrayList<String> miniArrayList = new MiniArrayList<String>();
