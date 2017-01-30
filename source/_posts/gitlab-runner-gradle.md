@@ -11,7 +11,7 @@ tags:
 - IDEA
 - Git
 ---
-更多JAVA后端工作流推荐内容参见:[JAVA后端工作流推荐系列---目录导航](/2017/01/09/workflow/)
+更多JAVA后端工作流推荐内容参见:[JAVA后端工作流推荐系列---目录导航](/2017/01/10/workflow/)
 
 可通过上一篇[Gitlab Runner对SpringBoot应用进行持续集成--理论篇](/2017/1/9/gitlab-runner/)了解Gitlab CI相关知识。
 
