@@ -42,7 +42,7 @@ tags:
 
 > **追求Git风**：git,github,gitlab等,运用于基于gitbook制作的[markdonw讲义](http://markdown.dxscx.com),hexo博客(markdown),**参与过开源项目的pull**。
 
-> **其他**:熟练使用Thymeleaf模版技术,熟练使用Maven、Svn、Ubuntu,Docker,Nginx等，目前在[个人站点](https://www.dxscx.com)均有运用，良好的编码风格，风格源于Google Java Code Style，注重关注点分离开发原则，注重编码质量和效率。
+> **其他**:熟练使用Thymeleaf模版技术,熟练使用Maven、Svn、Ubuntu,Docker,Nginx等，对开发->测试->生产多环境配置、持续集成CI、持续部署CD均有实践。目前在[个人站点](https://www.dxscx.com)均有运用，良好的编码风格，风格源于Google Java Code Style，注重关注点分离开发原则，注重编码质量和效率。
 > 目前正在**精读**:**Spring MVC官方文档**和阿里巴巴韩陆所著《**Java RESTful Web Service**》
 
 **技能树不再列举,重要的是从官方文档获取知识,独立思考、学习,解决问题、团队协作能力很重要!**
@@ -53,7 +53,9 @@ tags:
 |:--:|:--:|:--:|
 |2016.09-至今|精准投网络技术(北京)有限公司|Java研发工程师|
 
-> 主要负责爬虫系统的设计和实现，采用Spring Boot微服务是架构设计，运用Spring,Spring MVC,Spring Data Jpa,Hibernate等技术，采用Postgresql做存储，大量运用其json,hstore存储、查询特性，快速低成本实现公司爬虫系统，前端采用Vue做MVVM、Vue Resource作数据交互，全是采用公司新技术，快速学习，从设计到第一版上线2周内完成，包括测试服务器的Docker化和上线测试时间，**只为证明学习能力**。
+> 主要负责爬虫系统的设计和实现，采用Spring Boot微服务式架构设计，运用Spring,Spring MVC,Spring Data Jpa,Hibernate等技术，采用Postgresql做存储，大量运用其json,hstore存储、查询特性，快速低成本实现公司爬虫系统，前端采用Vue做MVVM、Vue Resource作数据交互，全是采用公司新技术，快速学习，从设计到第一版上线2周内完成，包括测试服务器的Docker化和上线测试时间。
+
+> 负责Gitlab相关技术研究包括不限于`持续集成CI`，`持续部署CD`。
 
 
 |时间|公司名称|职位|
