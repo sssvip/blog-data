@@ -11,9 +11,14 @@ tags:
 - redblacktree
 ---
 
+Last article refer binary search tree,as we know the tree is not poised. The behaviour was decided by the data insertion order .
+
 see source code:[RedBlackBinarySearchTree.java](https://github.com/sssvip/algorithms4th/blob/master/src/fundamentals/tree/redblackbinarysearchtree/RedBlackBinarySearchTree.java)
 
 <!-- more -->
+
+
+
 
 see source code:[RedBlackBinarySearchTree.java](https://github.com/sssvip/algorithms4th/blob/master/src/fundamentals/tree/redblackbinarysearchtree/RedBlackBinarySearchTree.java)
 
