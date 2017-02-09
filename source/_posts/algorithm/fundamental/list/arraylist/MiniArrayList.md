@@ -15,7 +15,7 @@ MiniArrayList是实现List接口，初步实现，未考虑太多，简化初步
 
 # MiniArrayList Change Log
 
-> This just a Implement process about List interface, I want to record the whole process of Implement the list. 
+> This just an implement process about List interface, I want to record the whole process of Implement the list. 
 
 > 仅仅是想完整记录List整个实现过程,从中去发现问题，学习JDK中ArrayLists,如果对你有帮助那就更好了。
 
@@ -42,7 +42,7 @@ Another important point you should know that this version hadn't test,I want to 
 
 **MiniArrayListCompareTest.java**show this step all code.this step just to test and compare with ArrayList,need to keep uniform on the function, not to consider the performance.
 
-In order to review the situation,this test not to fix the MiniArrayList function or performance error(or bad code),so this step
+In order to check the situation,this test not to fix the MiniArrayList function or performance error(or bad code),so this step
 just find the difference on the function. In order to simplify test case just use String to test.
 
 **MiniArrayListCompareTest.java**存储了次阶段测试代码,这个步骤仅仅考虑与ArrayList的对比测试，该修正的修正，首要保证的是找出在功能上的差异，找出对Api的理解错误导致实现错误的地方，最后达到方法正确性的修正，性能是下一步要纳入考虑范围的事情。

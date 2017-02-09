@@ -99,6 +99,7 @@ the tree will be this behaviour
 The tree is not balanced and exist problems of efficiency about search and insert.
 
 #### simple conclusion about BinarySearchTree operation
+> All conclusion you can compare with the [source code](https://github.com/sssvip/algorithms4th/blob/master/src/fundamentals/tree/binarysearchtree/BinarySearchTree.java) to view
 
 - **int size()**: 
 
@@ -136,13 +137,69 @@ This method to find the k-th node's key.
 
 The most important thinking come from this line code `select(node.right, k - size - 1);`. It can indicate the relationship about `k` with `size` clearly.
 
-To be continued...
+- **int rank(Key key)**:
+
+This method to find the key's rank in the tree.
+
+similar to select method that the most important thinking is the code `1 + size(node.left) + rank(node.right, key);`, you should know the node's size is node's left subnode and right subnode's size sum. But node's right subnode is greater than current node, you need deal carefully.
+
+- **void delete(Key key)**:
+
+Delete method is the most important method in the `Binary Search Tree`. When you delete a node, you must deal the subnode carefully. 
+And whatever how to deal the node, the key point is that you must keep the order of the tree.
+Generally, you will meet the few kinds situations as follow:
+1. current node don't has any subnode
+the most simple situation,just set its parent node relational pointer it to null and update relational node's size.
+2. current node has left subnode or right subnode only
+set current node's parent node relational pointer to current node's left subnode or right subnode, then current node set to null and update relational node's size.
+3. current node has left subnode and right subnode
+the key thinking is that set current node's right subtree's min node to current node and delete the min node, meanwhile remain the current node's left node and update relational node's size.
+
+and convert above thinking to recursion code:
+
+```java
+private Node delete(Node node, Key key) {
+    if (node == null) {
+      return null;
+    }
+    int cmp = key.compareTo(node.key);
+    if (cmp < 0) {
+      node.left = delete(node.left, key);
+    } else if (cmp > 0) {
+      node.right = delete(node.right, key);
+    } else {
+      if (node.right == null) {
+        return node.left;
+      }
+      if (node.left == null) {
+        return node.right;
+      }
+      Node temp = node;
+      node = min(temp.right);
+      node.right = deleteMin(temp.right);
+      node.left = temp.left;
+    }
+    node.N = size(node.left) + size(node.right) + 1;
+    return node;
+}
+```
+- **Node  deleteMin()**:
+
+This method to delete min node. The key point is to find left subnode until it is null and delete it,meanwhile you need to set the node(left subnode is null) right subnode to the node's parent node's relational pointer.
+
+- **Node  deleteMax()**:
+
+This method similar to `deleteMin` that to delete max node.
+
+- **Iterator<Node> keys()**:
+
+This method is to change the data to a iterator type data. In order to reduce process, I use `toArrayList().iterator()` in this method.
 
 see source code:[BinarySearchTree.java](https://github.com/sssvip/algorithms4th/blob/master/src/fundamentals/tree/binarysearchtree/BinarySearchTree.java)
 
 See more:[Algorightm 4th plan](https://blog.dxscx.com/2017/01/12/algorithm/plan/)
 
-Origin Adress: [https://blog.dxscx.com/2017/01/31/algorithm/fundamental/tree/binarysearchtree/](https://blog.dxscx.com/2017/01/31/algorithm/fundamental/tree/binarysearchtree/)
+Original Address: [https://blog.dxscx.com/2017/01/31/algorithm/fundamental/tree/binarysearchtree/](https://blog.dxscx.com/2017/01/31/algorithm/fundamental/tree/binarysearchtree/)
 
 
 

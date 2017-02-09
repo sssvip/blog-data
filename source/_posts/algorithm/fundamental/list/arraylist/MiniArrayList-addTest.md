@@ -80,7 +80,7 @@ more issue detail see: [https://github.com/sssvip/algorithms4th/issues](https://
         > but ArrayList don't have any toString shadow... Then I guess it must extend from his super class.I see toString in his super 
          class AbstractList,AbstractCollection etc. I found the method in the AbstractCollection class.
          
-        AbstractCollection class's toString() code as follow:
+        AbstractCollection class's toString() code as follows:
         ```java
         public String toString() {
             Iterator<E> it = iterator();
@@ -98,7 +98,7 @@ more issue detail see: [https://github.com/sssvip/algorithms4th/issues](https://
             }
          }
         ```
-    3. Analyze this situation I add toString method in MiniArrayList,code as follow:
+    3. Analyze this situation I add toString method in MiniArrayList,code as follows:
        ```java
        @Override
        public String toString() {
@@ -127,7 +127,7 @@ more issue detail see: [https://github.com/sssvip/algorithms4th/issues](https://
             return Arrays.copyOf(elementData, size);
         }
         ```
-    5. So I update MiniArrayList toArray() as follow:
+    5. So I update MiniArrayList toArray() as follows:
         ```java
         @Override
         public Object[] toArray() {
@@ -169,12 +169,12 @@ As you can see, in addTest() MiniArrayList's output is consistent with ArrayList
 
 - forget use System.copyOf() reference API,if it suit you situation, you should use JDK'S API first,not implement again.
   
-  reason as follow:
+  reason as follows:
   
   1. the JDK's API through thousands of people check,error rate lower than your implement.
-  2. your implement may be not consider many you didn't consider situation,such as the arguments null.
+  2. your implement maybe not consider many you didn't consider situation,such as the arguments null.
 
-- about the this.size() issue,this is a mistake,so you know the knowledge may be you will code error.
+- about the this.size() issue,this is a mistake,so you know the knowledge maybe you will code error.
 - Maybe use many times ArrayList,but just know a little knowledge about ArrayList,so should see the source code more and more.
 
 

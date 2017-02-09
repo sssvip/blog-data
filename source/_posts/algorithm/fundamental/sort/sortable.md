@@ -11,28 +11,28 @@ tags:
 ---
 
 
-There is no surprise,reading progress more faster than implement. Now,I was reading the section 2.5 in algorithm 4th.But I am just start plan to implement the sort part.I very like a saying:"slower is faster". So just do yourself better.
+There is no surprise,reading progress faster than implement. Now,I was reading the section 2.5 in algorithm 4th.But I am just start plan to implement the sort part.I very like a saying:"slower is faster". So just do yourself better.
 
 <!-- more -->
 
 <div id="google_translate_element"></div>
 
-#### why to define a abstract class called `Sortable`?
+#### why to define an abstract class called `Sortable`?
 
 1. Extract the common code part of sort,reduce code repeat
 
-2. More specifical to implement a kind of sort,not mess
+2. More specifically to implement a kind of sort,not mess
 
 This is a good method to implement sort. Because I don't mess more,I just divide implement to more step. I just focus per step how to implement,not here and there meanwhile.
 
 As sort, it can be divide into two necessary steps that compare and exchange.
 
-#### why to define a abstract class called Sortable?
-I try to define a interface not a abstract class,then I found that not a good practice.
+#### why to define an abstract class called Sortable?
+I try to define an interface not an abstract class,then I found that not a good practice.
 
 Although define a Sortable interface can ensure the subclass must implement each method.If I implement the sortable interface, I must to implement the each method in `QucikSort`,`MergeSort`,`SelectSort`,etc. But think it seriously,not need implement each method in a specific Sort Class. Many method just common code for many specific Sort Class.
 
-So I remember it can use abstract class to define,if not specific method, just use default implement. If some method not common code,it must to implement specific,it can declare a abstract method.Then in specific Sort Class implement it specifically.
+So I remember it can use abstract class to define,if not specific method, just use default implement. If some method not common code,it must to implement specific,it can declare an abstract method.Then in specific Sort Class implement it specifically.
 
 ```java
 /**
@@ -107,7 +107,7 @@ see source code:[Sortable.java](https://github.com/sssvip/algorithms4th/blob/mas
 
 See more:[Algorightm 4th plan](https://blog.dxscx.com/2017/01/12/algorithm/plan/)
 
-Origin Adress: [https://blog.dxscx.com/2017/01/22/algorithm/fundamental/sort/sortable/](https://blog.dxscx.com/2017/01/22/algorithm/fundamental/sort/sortable/)
+Original Address: [https://blog.dxscx.com/2017/01/22/algorithm/fundamental/sort/sortable/](https://blog.dxscx.com/2017/01/22/algorithm/fundamental/sort/sortable/)
 
 
 

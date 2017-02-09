@@ -82,7 +82,7 @@ Fortunately,this time just a one issue.
 MiniArrayList lastIndexOf() NullPointerException
 
 - **issue detail:**
-MiniArrayList lastIndexOf() in for cycle had a incorrect usage that control the value of i
+MiniArrayList lastIndexOf() in for cycle had an incorrect usage that control the value of i
 
 - **how to solve the issues:?** 
 
@@ -105,7 +105,7 @@ MiniArrayList lastIndexOf() in for cycle had a incorrect usage that control the 
 
 #### c. indexTest() Run again
 
-checkout the modified code use the command as follow:
+checkout the modified code use the command as follows:
 ```java
 check out MiniArrayList_indexTest_fixed
 ```
