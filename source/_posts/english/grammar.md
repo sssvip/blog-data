@@ -6,11 +6,11 @@ tags:
 - notes
 ---
 
-English is an important language,not only need to remember many vocabulary,but also need to remember and understand much grammar.
-So I want to note some English grammar at this article,step by step to remember more and more English grammar and vocabulary.
+English is an important language,not only need to remember many vocabularies,but also need to remember and understand much grammar.
+So I want to note some English grammar at this article,step by step to remember more and more English grammar and vocabularies.
 
 ### Use tools to check grammar
-There are many mistake include vocabulary and grammar when this article was finished.
+There are many mistakes include vocabularies and grammar when this article was finished.
 
 Then I found this website to check style and grammar: [http://www.polishmywriting.com/](http://www.polishmywriting.com/)
 
