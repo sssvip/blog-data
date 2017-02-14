@@ -23,7 +23,7 @@ tags:
 
 把肉处理完我就简单用剩饭做了点给自己吃，不想大块吃肉，至少当天晚上不想，所以我切成了一小块一小块放在了饭里。还加了一点东北产的“韩国泡菜”，这样搭配着还挺好吃的。
 
-![your_heart.png](/img/your_heart/tuannianfan.png)
+![your_heart.png](https://sssvip.github.io/static/img/your_heart/tuannianfan.png)
 
 ### 大年初一，出去走一走
 
@@ -35,14 +35,14 @@ tags:
 
 一路上我并没有期待什么，因为我就是简单的出去走一走，这种感觉如果你有你就能体会到，是多么的怡然自得，多么的快乐。
 
-![subway.png](/img/your_heart/subway.png)
+![subway.png](https://sssvip.github.io/static/img/your_heart/subway.png)
 
 刚上地铁的时候就是这样的，在北京你周末都是看不到这个情形的，人烟稀少，不过越往城中心走渐渐多了起来，不过还是算稀少。
 
-![tram.png](/img/your_heart/tram.png)
+![tram.png](https://sssvip.github.io/static/img/your_heart/tram.png)
 因为没有什么期待，所以看见这个电车都能让我高兴好一阵子，来北京快半年了，我居然不知道还有电车，不经感叹朝阳区真大呀，哈哈。
 
-![straight.png](/img/your_heart/straight.png)
+![straight.png](https://sssvip.github.io/static/img/your_heart/straight.png)
 看到这种笔直的道路我都会很高兴，这也是我来北方的一个原因。
 
 ### 闹中取静的东岳庙会
@@ -52,19 +52,19 @@ tags:
 因为目前住在通州区，百度地图搜索了一下“庙会”，看这个“东岳”挺不错，最近不说，点评也不错。毫不犹豫就选择了它。
 
 北京东岳庙位于北京市朝阳区朝阳门外大街的北侧，原是道教正一道在中国华北地区的第一大丛林。第一感觉是这个闹中取静的城中小庙是很不错的。简单拍了一个全景图。
-![panoramic.png](/img/your_heart/panoramic.png)
+![panoramic.png](https://sssvip.github.io/static/img/your_heart/panoramic.png)
 
 也许你已经看到了，左边是东岳庙，正中央就是百脑汇，右边蓝色的是沃尔玛，右边还有苏宁易购什么的，真的算是闹中取静了，取得一份悠闲。
 
 ### 庙会体验一：训白鼠
 
-![train_mouse.png](/img/your_heart/train_mouse.png)
+![train_mouse.png](https://sssvip.github.io/static/img/your_heart/train_mouse.png)
 
 这是我看进入东岳庙的第一个“把戏”，训白鼠，很普通，没能带能什么感觉。
 
 ### 庙会体验二：木偶戏
 
-![puppet.png](/img/your_heart/puppet.png)
+![puppet.png](https://sssvip.github.io/static/img/your_heart/puppet.png)
 
 这是第一个让我开心的笑的木偶戏，也许没怎么看过木偶戏，这里还有点小故事。
 
@@ -78,8 +78,8 @@ tags:
 
 ### 庙会体验三：扔铜钱
 
-![coin_01.png](/img/your_heart/coin_01.png)
-![coin_02.png](/img/your_heart/coin_02.png)
+![coin_01.png](https://sssvip.github.io/static/img/your_heart/coin_01.png)
+![coin_02.png](https://sssvip.github.io/static/img/your_heart/coin_02.png)
 
 这个还是挺有意思的，仍一种看似金币的东西去砸那个钟，“钟响即福”，这也是一个很有意思的游戏，钟声真的好听，很想和你分享它的声音。
 
@@ -91,7 +91,7 @@ tags:
 
 ### 只要你想，太阳会一只跟着你
 
-![sun.png](/img/your_heart/sun.png)
+![sun.png](https://sssvip.github.io/static/img/your_heart/sun.png)
 
 左边两张是到达庙会附近拍的，那个时候太阳刚刚出来，心情正好太阳也出来了，真的是想什么来什么。
 

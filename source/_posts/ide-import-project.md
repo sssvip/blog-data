@@ -20,17 +20,17 @@ tags:
 	创建账户登录不用过多说明，内部用git.minixiao.com帐号注册通道已经关闭，注册需联系管理员。
 2. 创建helloworld项目
 
-![ide-import-prepare](https://sssvip.github.io/img/ide-import-project/new-project-prepare.png)
+![ide-import-prepare](https://sssvip.github.io/static/img/ide-import-project/new-project-prepare.png)
 
 登录后点击Projects后能看见你当前的所有项目，点击**New Project**创建项目
-![new-project](https://sssvip.github.io/img/ide-import-project/new-project.png)
+![new-project](https://sssvip.github.io/static/img/ide-import-project/new-project.png)
 
 1. **输入Project name 项目名称**
 2. **输入Project desciption，虽然是可选的，还是比较重要，让人第一眼了解你的项目。**
 3. **根据项目需要选择项目Visibility Level项目可见等级，helloworld演示项目
 ，这里直接公开即可。**
 4. **点击Create project不出意外你可以看到下图的样子，恭喜你管理仓库已经建好了。**
-![new-project-created](https://sssvip.github.io/img/ide-import-project/new-project-created.png)
+![new-project-created](https://sssvip.github.io/static/img/ide-import-project/new-project-created.png)
 
 ### 从远端仓库Clone克隆至本地
 
@@ -39,7 +39,7 @@ tags:
 	> 安装没有什么难的，值得一提注意添加path变量:)
 
 2. 克隆至本地
-![clone-to-local](https://sssvip.github.io/img/ide-import-project/clone-to-local.png)
+![clone-to-local](https://sssvip.github.io/static/img/ide-import-project/clone-to-local.png)
 
 **命令解析:**
 
@@ -69,7 +69,7 @@ $
 
 ### 添加[上一步](/2017/01/03/springboot/)构建的项目初始文件至仓库，进行版本管理
 将上一步构建好的项目初始文件移动至helloworld文件夹，最终效果如下：
-![local-init-project](https://sssvip.github.io/img/ide-import-project/local-init-project.png)
+![local-init-project](https://sssvip.github.io/static/img/ide-import-project/local-init-project.png)
 
 **命令解析：**
 ```html
@@ -83,7 +83,7 @@ $
 
 ### 从本地仓库push推至远端仓库
 将刚刚添加的项目文件存储到本地仓库并push推到远端gitlab仓库
-![push-to-remote](https://sssvip.github.io/img/ide-import-project/push-to-remote.png)
+![push-to-remote](https://sssvip.github.io/static/img/ide-import-project/push-to-remote.png)
 
 **命令解析：**
 ```html
@@ -149,36 +149,36 @@ Administrator@tangw-A-3 MINGW64 /d/Demo/helloworld (master)
 $
 ```
 在远端仓库你能看见如下效果，项目文件就推送到远端啦！！！
-![push-to-remote-after](https://sssvip.github.io/img/ide-import-project/push-to-remote-after.png)
+![push-to-remote-after](https://sssvip.github.io/static/img/ide-import-project/push-to-remote-after.png)
 
 ### 导入IDE(IntelliJ IDEA)
 1. 打开IDEA软件导入项目，点击**Import Project**进行项目导入
 > 项目中用IDEA Community,用Eclipse道理一样，很多东西都是共通的。
 
-![idea-import-project](https://sssvip.github.io/img/ide-import-project/idea-import-project.png)
+![idea-import-project](https://sssvip.github.io/static/img/ide-import-project/idea-import-project.png)
 
 选择刚刚的项目路径`D:\Demo\helloworld`进行导入
 
-![idea-import-project-select](https://sssvip.github.io/img/ide-import-project/idea-import-project-select.png)
+![idea-import-project-select](https://sssvip.github.io/static/img/ide-import-project/idea-import-project-select.png)
 
 选择Import Project from external model 和Gradle项，这选项是默认的，因为IDEA已经识别到了
 
-![idea-import-project-from-external](https://sssvip.github.io/img/ide-import-project/idea-import-project-from-external.png)
+![idea-import-project-from-external](https://sssvip.github.io/static/img/ide-import-project/idea-import-project-from-external.png)
 
 勾选Use auto-import，然后finish
 
-![idea-import-project-auto-import](https://sssvip.github.io/img/ide-import-project/idea-import-project-auto-import.png)
+![idea-import-project-auto-import](https://sssvip.github.io/static/img/ide-import-project/idea-import-project-auto-import.png)
 
 首次使用SpringBoot或则首次使用新版本的SpringBoot会下载相应的以来jar包，稍微等等就好。
 
-![idea-import-project-downloading](https://sssvip.github.io/img/ide-import-project/idea-import-project-downloading.png)
+![idea-import-project-downloading](https://sssvip.github.io/static/img/ide-import-project/idea-import-project-downloading.png)
 
 然后你看到了这个，恭喜你，项目已经导入成功，可以开始搞事情了。。。
 
-![idea-import-project-helloworld](https://sssvip.github.io/img/ide-import-project/idea-import-project-helloworld.png)
+![idea-import-project-helloworld](https://sssvip.github.io/static/img/ide-import-project/idea-import-project-helloworld.png)
 
 **提示：** 可能存在意外的是注意看**Event Log**，如果出现类似情况(也许你没有)，将版本控制注册，后面就可以很好的使用Gui的Git,一般情况下可以不用敲git命令了，不过还是建议大家多使用git命令。
-![idea-import-project-helloworld-git](https://sssvip.github.io/img/ide-import-project/idea-import-project-helloworld-git.png)
+![idea-import-project-helloworld-git](https://sssvip.github.io/static/img/ide-import-project/idea-import-project-helloworld-git.png)
 
 继续查看下一篇: [JAVA后端工作流推荐三--IDEA插件安装及使用](/2017/01/05/idea-plugins/)
 

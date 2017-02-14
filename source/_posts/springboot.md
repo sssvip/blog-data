@@ -26,14 +26,14 @@ Spring Boot takes an opinionated view of building production-ready Spring applic
 
 正如[SpringBoot官网](http://projects.spring.io/spring-boot/)介绍的Quick Start一样,选择我们常用的构建工具，这里我选择了Gradle，你同样可以选择Maven方式，道理一样。
 
-![quickstart](https://sssvip.github.io/img/springboot/quickstart.png)
+![quickstart](https://sssvip.github.io/static/img/springboot/quickstart.png)
 
 将compile("org.springframework.boot:spring-boot-starter-web:1.4.3.RELEASE")添加进gradle构建文件build.gradle中dependencies项中即可，如果你还不熟悉gradle的使用，可以查看[Gradle官网](https://gradle.org/)
 
 **方式二--SPRING INITIALIZR(推荐)**：
 
 访问Spring官方提供的[SPRING INITIALIZR](https://start.spring.io/)如图所示：
-![springinitializr](https://sssvip.github.io/img/springboot/springinitializr.png)
+![springinitializr](https://sssvip.github.io/static/img/springboot/springinitializr.png)
 
 **详细步骤：**
 
@@ -42,13 +42,13 @@ Spring Boot takes an opinionated view of building production-ready Spring applic
 3. **输入组织唯一标识Group,这里我输入了`com.minixiao`**
 4. **输入项目唯一标识Artifact,这里我输入了`helloworld`**
 5. **在Search for dependencies可以输入需要依赖的项目，然后选择添加**
-	![springinitializr-search-for-dependencies](https://sssvip.github.io/img/springboot/springinitializr-search-for-dependencies.png)
-	![springinitializr-search-for-dependencies-selected](https://sssvip.github.io/img/springboot/springinitializr-search-for-dependencies-selected.png)
+	![springinitializr-search-for-dependencies](https://sssvip.github.io/static/img/springboot/springinitializr-search-for-dependencies.png)
+	![springinitializr-search-for-dependencies-selected](https://sssvip.github.io/static/img/springboot/springinitializr-search-for-dependencies-selected.png)
 6. **推荐点击`Switch to the full version`，可以更方便的看到全部SpringBoot官方提供的Starter.**
 
 	这里你点击`Switch to the full version`后可以看到，我们可以选择Packaging方式，和Java Version(我们采用JDK1.8),因为这些数据都会最后生成到build.gradle中去，推荐项目中Packaging采用Jar的打包方式，这样因为在打包是会自动将所需要的依赖一起打进jar包，最后项目构建产生的jar包只需要在装有JRE环境上的计算机上就能运行，无需再下载SpringBoot相关依赖或者是其他项目中引入的依赖，这也是SpringBoot官方推荐的fat jar打包方式，一次打包到处运行。
-	![switch-full-version](https://sssvip.github.io/img/springboot/switch-full-version.png)
-	![switch-full-version-dependencies](https://sssvip.github.io/img/springboot/switch-full-version-dependencies.png)
+	![switch-full-version](https://sssvip.github.io/static/img/springboot/switch-full-version.png)
+	![switch-full-version-dependencies](https://sssvip.github.io/static/img/springboot/switch-full-version-dependencies.png)
 	后面您就能看见很多多选项，这就能看到很多SpringBoot官方提供的Starter,我们根据项目中用到的技术选择即可，这里简单介绍几个常用的选项。
 
 	1. **Web** `Full-stack web development with Tomcat and Spring MVC`
@@ -74,10 +74,10 @@ Spring Boot takes an opinionated view of building production-ready Spring applic
 7. **下载生成构建的项目**
 	
 	在当前网页点击绿色的`Generate Project`按钮或者敲`alt+enter`键可自动下载刚产生的项目初始文件，如果不出意外你已经拿到了由项目唯一标识Artifact内容命名的zip压缩文件，当然此次下载的即是`helloword.zip`
-	![helloworld-zip](https://sssvip.github.io/img/springboot/helloworld-zip.png)
+	![helloworld-zip](https://sssvip.github.io/static/img/springboot/helloworld-zip.png)
 	
 	解压后用tree命令查看目录树结构如下：
-	![helloworld-zip-tree](https://sssvip.github.io/img/springboot/helloworld-zip-tree.png)
+	![helloworld-zip-tree](https://sssvip.github.io/static/img/springboot/helloworld-zip-tree.png)
 	
 	**目录简单解析**：
 

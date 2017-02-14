@@ -56,7 +56,7 @@ tags:
 
 	我们这里显示`BUILD SUCCESSFUL`是因为上次我们在演示插件安装时进行过checkstyle代码修正，等等在后面的环节我们会进行试错演示。
 
-	![gradle-checkstyle](https://sssvip.github.io/img/gitlab-runner/gradle-checkstyle.png)
+	![gradle-checkstyle](https://sssvip.github.io/static/img/gitlab-runner/gradle-checkstyle.png)
 
 2. 添加`.gitlab-ci.yml`文件意味着申明进行持续集成
 	
@@ -64,7 +64,7 @@ tags:
 	
 	内容如下：
 
-	![add-ci-yml](https://sssvip.github.io/img/gitlab-runner/add-ci-yml.png)
+	![add-ci-yml](https://sssvip.github.io/static/img/gitlab-runner/add-ci-yml.png)
 
 	其它语法不细说了，具体查语法文档，我们在script脚本(这个脚本中语法和你的Runner的executor是有关系的，后面Runner会选择shell作为executor,所以这里的语法是shell形式的，后面后具体看到我们在哪里选择shell)中的含义是gradle清除当前项目环境，然后检查main文件夹中的java代码的style,如果失败则会停止不再执行后续的build过程。
 
@@ -72,9 +72,9 @@ tags:
 	
 	我们当前状态下不注册Runner,将代码push上Gitlab,试试效果。
 
-	![add-ci-yml-push.png](https://sssvip.github.io/img/gitlab-runner/add-ci-yml-push.png)
+	![add-ci-yml-push.png](https://sssvip.github.io/static/img/gitlab-runner/add-ci-yml-push.png)
 	
-	![add-ci-yml-push-result.png](https://sssvip.github.io/img/gitlab-runner/add-ci-yml-push-result.png)
+	![add-ci-yml-push-result.png](https://sssvip.github.io/static/img/gitlab-runner/add-ci-yml-push-result.png)
 	
 	如果说我们是自己搭建的gitlab服务的话，我们此步骤下是不会有Running,更不会有failed这些结果的，因为我们没有注册Runner(没有提前设置过shared的Runner)，为什么我提交到gitlab.com会出现构建失败的效果呢？你可以看到下图，他选用了gitlab.com提供的shared的Runner,`Running with gitlab-ci-multi-runner 1.9.0 (82714ae)`,他用的这个runner,仔细看下方命令是使用的ruby:2.1的docker进行执行的，他并没有gradle相关的环境，我们也没必要在这个CI脚本中写先安装jdk,再安装gradle等等，我们注册一个自己的包含gradle和jdk环境的runner即可。
 	
@@ -85,11 +85,11 @@ tags:
 	
 	我们准备为项目添加包含上文提到的包含gradle,jdk1.8环境的为我们项目服务的runner:
 		
-	![add-runner](https://sssvip.github.io/img/gitlab-runner/add-runner.png)
+	![add-runner](https://sssvip.github.io/static/img/gitlab-runner/add-runner.png)
 	
 	可以看到上图是存在Shared Runners的(如果存在Shared Runner,配置了`.gitlab-ci.yml`的项目会自动选择一个shared Runner进行执行CI过程)，我们需要添加针对我们项目服务的Specific Runners,上图中`How to setup a specific Runner for a new project`已经说明很详细，前面安装就不再赘述,下面的演示是基于安装好docker服务的计算机进行的,添加步骤如下图：
 	
-	![gitlab-runner-register](https://sssvip.github.io/img/gitlab-runner/gitlab-runner-register.png)
+	![gitlab-runner-register](https://sssvip.github.io/static/img/gitlab-runner/gitlab-runner-register.png)
 	
 	简单解析：
 	
@@ -117,7 +117,7 @@ tags:
 	```
 	> 刷新gitlab页面，可以看到gitlab-runner已经添加	
 	
-	![add-runner](https://sssvip.github.io/img/gitlab-runner/add-runner-result.png)
+	![add-runner](https://sssvip.github.io/static/img/gitlab-runner/add-runner-result.png)
 
 4. 测试效果
 	1. #### 命名不规范强行提交试错
@@ -125,37 +125,37 @@ tags:
 
 		创建domain package,并创建User类，申明成员变量`Name`,此处命名不规范，IDEA明显有黄色警告，我们通过下方的插件进行检测也看出，`Member name`的`Name`必须符合正则表达式`小写字母开头的驼峰命名法。
 
-		![checkstyle-user-name-test](https://sssvip.github.io/img/gitlab-runner/checkstyle-user-name-test.png)
+		![checkstyle-user-name-test](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-user-name-test.png)
 
 		这里明显出错了，我们强行提交试试Gitlab CI效果,提交后看到在running：
 
-		![checkstyle-user-name-test-running](https://sssvip.github.io/img/gitlab-runner/checkstyle-user-name-test-running.png)
+		![checkstyle-user-name-test-running](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-user-name-test-running.png)
 		
-		![checkstyle-user-name-test-failed-again](https://sssvip.github.io/img/gitlab-runner/checkstyle-user-name-test-failed-again.png)
+		![checkstyle-user-name-test-failed-again](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-user-name-test-failed-again.png)
 
 		再次失败了，这里gitlab.com上的CI默认选择了上次的shared runner,这是不符合我们需求的，其实可以针对tag申明选择runner,这里我们简化先不说如何使用tag什么runner,我们直接关掉shared runner,使其默认使用我们注册的runner。
 	
-		![checkstyle-user-name-test-close-shared-runner](https://sssvip.github.io/img/gitlab-runner/checkstyle-user-name-test-close-shared-runner.png)
+		![checkstyle-user-name-test-close-shared-runner](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-user-name-test-close-shared-runner.png)
 
 		关掉后修改个小文件进行再次push(我此次修改的是一个代码注视,多加一个“.”,以便可以再次用git进行push,不然没有版本变化是不能进行push的)，我们查看下面的CI效果，我们CI脚本(`.gitlab-ci.yml`)写的是先checkstyle,然后在进行构建，这里我们预期是会在checkstyle这一步会失败，看看具体效果(第一次进行构建是会下载相关依赖，可能比较久，稍微等一等)
 
-		![checkstyle-user-name-test-result](https://sssvip.github.io/img/gitlab-runner/checkstyle-user-name-test-result.png)
+		![checkstyle-user-name-test-result](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-user-name-test-result.png)
 		
 		可以看到这里已经选用我们的gitlab runner进行执行CI过程，下载了众多依赖后符合我们预期的在checkstyle过程完美的失败了，我们详细看下具体内容：
 
-		![checkstyle-user-name-test-result-2](https://sssvip.github.io/img/gitlab-runner/checkstyle-user-name-test-result-2.png)
+		![checkstyle-user-name-test-result-2](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-user-name-test-result-2.png)
 
-		![checkstyle-user-name-test-result-3](https://sssvip.github.io/img/gitlab-runner/checkstyle-user-name-test-result-3.png)
+		![checkstyle-user-name-test-result-3](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-user-name-test-result-3.png)
 
 		如果在安装gitlab的管理员配置了email服务的话(gitlab.com默认是有的，自己搭建的gitlab需要配置)，你每次的提交结果是可以收到CI结果邮件的，以便及时修正项目
 
-		![checkstyle-user-name-test-result-email](https://sssvip.github.io/img/gitlab-runner/checkstyle-user-name-test-result-email.png)
+		![checkstyle-user-name-test-result-email](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-user-name-test-result-email.png)
 
-		![checkstyle-user-name-test-result-email](https://sssvip.github.io/img/gitlab-runner/checkstyle-user-name-test-update.png)
+		![checkstyle-user-name-test-result-email](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-user-name-test-update.png)
 
 		我们将成员变量名进行修正，再次push上gitlab，进行测试效果：
 
-		![checkstyle-pass-checkstyleMain](https://sssvip.github.io/img/gitlab-runner/checkstyle-pass-checkstyleMain.png)
+		![checkstyle-pass-checkstyleMain](https://sssvip.github.io/static/img/gitlab-runner/checkstyle-pass-checkstyleMain.png)
 		
 		这里明显看到我们经过修正的代码是能通过CI过程中checkstyleMain的了，这就起到了很好的提交代码风格检测的作用。
 
@@ -165,7 +165,7 @@ tags:
 		
 		> 此举为了保证提交代码的单元测试能通过，不通过则报错误，达到提醒修改的作用
 		
-		![ci-test](https://sssvip.github.io/img/gitlab-runner/ci-test.png)
+		![ci-test](https://sssvip.github.io/static/img/gitlab-runner/ci-test.png)
 		
 		这里我们进行单元测试演示，在实际项目中根据约定粒度，预定测试方法，进行测试即可，当然需要遵循单元测试规则，这里我们选用了junit进行掩饰，只作演示，我直接在HelloworldApplocationTests中进行演示，删掉初始代码，写入代码如上图，在IDEA中我们运行单元测试能看到效果，已经报错，我们希望的10，实际值是20，这里的assertEquals语法可以查询junit文档，相对来说是很简单的。
 
@@ -184,7 +184,7 @@ tags:
 		```
 		再次push查看我们的单元测试在CI过程的影响：
 
-		![ci-test-failed](https://sssvip.github.io/img/gitlab-runner/ci-test-failed.png)
+		![ci-test-failed](https://sssvip.github.io/static/img/gitlab-runner/ci-test-failed.png)
 
 		可以看到这个单元测试失败了，此次CI过程也就意味着失败了，你就会再次收到失败的提醒邮件，所以及时修复问题。
 
@@ -198,19 +198,19 @@ tags:
 			assertEquals(20, 10 + 10, 0);
 		}
 		```
-		![ci-test-correct](https://sssvip.github.io/img/gitlab-runner/ci-test-correct.png)
+		![ci-test-correct](https://sssvip.github.io/static/img/gitlab-runner/ci-test-correct.png)
 
 		再次提交查看CI结果：
 		
-		![ci-test-correct-result](https://sssvip.github.io/img/gitlab-runner/ci-test-correct-result.png)
+		![ci-test-correct-result](https://sssvip.github.io/static/img/gitlab-runner/ci-test-correct-result.png)
 		
 		查看构建历史：
 
-		![ci-test-correct-result-many](https://sssvip.github.io/img/gitlab-runner/ci-test-correct-result-many.png)
+		![ci-test-correct-result-many](https://sssvip.github.io/static/img/gitlab-runner/ci-test-correct-result-many.png)
 
 		每次构建收到的邮件:
 
-		![ci-test-correct-result-many-email](https://sssvip.github.io/img/gitlab-runner/ci-test-correct-result-many-email.png)
+		![ci-test-correct-result-many-email](https://sssvip.github.io/static/img/gitlab-runner/ci-test-correct-result-many-email.png)
 
 		经过多次试错，我们修复后终于收到了pass的邮件(这里项目的CI脚本仅包括了主要代码的静态分析，build过程(包括了单元测试，项目打包过程等等)，你还可以根据需要，将build后的jar包进行启动，然后做自动发布测试环境什么的，这都是在脚本里面写的东西啦，做到个性化脚本操作。
 
