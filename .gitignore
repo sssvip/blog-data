@@ -2,6 +2,8 @@
 Thumbs.db
 db.json
 *.log
-node_modules/
+###to store node_modules folder in order needn't install dependencies again.
+#node_modules/
 public/
-.deploy*/
+###to store deploy folder in order multi-pc to push article.
+#.deploy*/
