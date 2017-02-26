@@ -51,7 +51,7 @@ JAVA后端工作流推荐系列目录导航
 	* 如何构建SpringBoot项目？
 		* 方式一--手动添加
 		* 方式二--SPRING INITIALIZR(推荐)
-2. [Gitlab创建项目并导入IDE](/2017/01/03/ide-import-project/)
+2. [Gitlab创建项目并导入IDE](/2017/01/04/ide-import-project/)
 	* 创建Gitlab项目仓库
 		* 创建帐号并登录
 		* 创建helloworld项目
