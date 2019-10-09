@@ -28,8 +28,8 @@ Udacity美国官网：[http://www.udacity.com/](http://www.udacity.com/)
 如果需要续费，可以选择使用优惠码：**68B0E2F2** 节约300RMB，这里不是安利你去续费，你确实想续费的时候可以用此优惠码见面300RMB
 
 我目前学习进度：全栈工程师课程-Full Stack Web Developer-第4部分,下面会贴上部分我已完成项目Github地址
-![progress](https://file.dxscx.com/udacity/progress.jpg)
-![profile](https://file.dxscx.com/udacity/profile.jpg)
+![progress](http://file.dxscx.com/udacity/progress.jpg)
+![profile](http://file.dxscx.com/udacity/profile.jpg)
 First Project- **Movie Trailer Website**:
 [https://github.com/sssvip/udacity/tree/master/Movie%20Trailer%20Website](https://github.com/sssvip/udacity/tree/master/Movie%20Trailer%20Website "https://github.com/sssvip/udacity/tree/master/Movie%20Trailer%20Website")
 
@@ -73,23 +73,23 @@ Third Project- **Multi User Blog**(Not Finished)
 
 1. ### 关于英语我想说 ###
 	- **英语不好不代表学不懂**，简单说明下我的英语水平，**我考了3次英语4级，3次都是380分上下**，不骗人，但大家不要笑话我，我现在就像通过Udacity这种方式学习，让自己潜移默化的学习英语，而不是仅仅为了考4级6级才学习英语。（`后面有的课程部分加上了中文字母我还有点不一样了，不像是学习，而像是看美剧`）
-	- ![first-lesson](https://file.dxscx.com/udacity/first_lesson.jpg)
+	- ![first-lesson](http://file.dxscx.com/udacity/first_lesson.jpg)
 	- **这是我第一个“Python启蒙”老师**，这也是让我喜欢上Udacity的老师,您注意看他在课程中用了很多插画，真的是很用心，你看他在自己画图（下图），也能看出国外的“Developer” `not just developing,and any more others`.(从这里开始我简单的说明下，我写出来的英语可能存在一些语法错误哈，我真的是随性写的，只要你能看懂就行，看不懂也没什么，你就当作这不重要。)
-	- ![first_lesson_chart](https://file.dxscx.com/udacity/first_lesson_chart.jpg)
-	- ![first_lesson_chart2](https://file.dxscx.com/udacity/first_lesson_chart2.jpg)
+	- ![first_lesson_chart](http://file.dxscx.com/udacity/first_lesson_chart.jpg)
+	- ![first_lesson_chart2](http://file.dxscx.com/udacity/first_lesson_chart2.jpg)
 	- **他是一个印度人，应该是吧我猜**。同样带着一丢丢口音哈，不过这个还是不影响我学习的兴趣，我也很喜欢他说话的感觉，有点点可爱，很受老师精心准备课程这种行为感动、震撼。
 	
 2. ### 关于课程质量我想说 ###
 	- **首先他们都是Udacity、Google的工程师**，这点从一开始你就能感觉到他们的气质，我后面才慢慢的被他们解决问题的思维一步步折服。(`我开始学这里的课程都没有中文，后来专门来这里截图才看到有中文了，看来Udacity本土化进程加快了`)
-	- ![developer_google](https://file.dxscx.com/udacity/developer_google.jpg)
+	- ![developer_google](http://file.dxscx.com/udacity/developer_google.jpg)
 	- **其实上面上面老师的插图绘画已经能看出来很用心了**，你看老师居然用到了纸板来叫我们这个Class（面向对象），这里我猜他主要是想教授面向对象如何产生，后面我们如何面向对象设计。
-	- ![first_lesson_module_chart](https://file.dxscx.com/udacity/first_lesson_module_chart.jpg)
+	- ![first_lesson_module_chart](http://file.dxscx.com/udacity/first_lesson_module_chart.jpg)
 	- **一个课程不仅仅是一个老师-不惜制作课程成本**，这和很多慕课相似，专业的人用在教专业的部分，虽然课程制作成本增加，那样课程质量更好。简单拿前端举例，他们会不同老师讲解一个部分，一个板块，再经过总体课程设计的情况下，不影响总体学习效果的情况下，多位导师讲自己最擅长的部分，我猜测也是他们工作中的很重要的部分，这样一来，质量就有了保证，而不是像国内课堂上（可能国外也有，我不知道我就不乱说）有的老师一样（老师看到此文别对好入座，只是说存在这种情况），自己去通篇看看教程，就来教授学生，很多老师自己也理解不透彻，随不能说老师讲的不对，但肯定没有实际工作过的，或经过大量研究的老师讲的透彻，讲得生动，学生这样才更能接受，以后少填坑。
 	- 用图说话：（`下面几张图都是在**Build a Portfolio**一个课程的截图，这是一个前端部分，包含了响应式布局、前端调试等多种技术知识`）
-	- ![multi_teacher_1](https://file.dxscx.com/udacity/multi_teacher_1.jpg)
-	- ![multi_teacher_2](https://file.dxscx.com/udacity/multi_teacher_2.jpg)
-	- ![multi_teacher_3](https://file.dxscx.com/udacity/multi_teacher_3.jpg)
-	- ![multi_teacher_4](https://file.dxscx.com/udacity/multi_teacher_4.jpg)
+	- ![multi_teacher_1](http://file.dxscx.com/udacity/multi_teacher_1.jpg)
+	- ![multi_teacher_2](http://file.dxscx.com/udacity/multi_teacher_2.jpg)
+	- ![multi_teacher_3](http://file.dxscx.com/udacity/multi_teacher_3.jpg)
+	- ![multi_teacher_4](http://file.dxscx.com/udacity/multi_teacher_4.jpg)
 3. ### 关于学习流程我想说 ###
  - **检验式学习**
  - **推荐！推荐！推荐！推荐！重要的事情说4遍再加粗，哈哈**
@@ -97,33 +97,33 @@ Third Project- **Multi User Blog**(Not Finished)
  - 直接上图说明我喜欢的地方，看我多直接。
  - 
  - **这里要抱歉的是这里截图都是我修改项目过后的Review记录了**，这里简单说下项目提交流程，就是你昨晚你的项目作业提交后有专门的Reviewer帮你检查作业，我第一次提交过去，美国那边**30分钟**就给我反馈了，检查出好多问题，无论是命名规范，还是功能上的建议等等，都写的很详细，我才可能是他们专门做检查的很有经验，检查所以很快。
- - ![review](https://file.dxscx.com/udacity/review_submit.jpg)
- - ![review](https://file.dxscx.com/udacity/review_reviewed.jpg)
+ - ![review](http://file.dxscx.com/udacity/review_submit.jpg)
+ - ![review](http://file.dxscx.com/udacity/review_reviewed.jpg)
  - **每次作业有个规范表rubrics**（`你需要按照规范表的功能、代码质量、注释等等要求去完成，说白了就是培养你的编程等习惯嘛，做到和以后工作需求一致`）
- - ![review](https://file.dxscx.com/udacity/review_rubrics.jpg)
+ - ![review](http://file.dxscx.com/udacity/review_rubrics.jpg)
  -大概有几种批改作业的注释：AWESOME,就是鼓励你嘛、做的很好，符合基本规范。
  -还有SUGGESTION,这也就认证了我们以前思维中外国的老师都是引导式、建议式学习，你有的不太符合规范的他只是建议你做。
- - ![review](https://file.dxscx.com/udacity/review_1.jpg)
- - ![review](https://file.dxscx.com/udacity/review_2.jpg)
- - ![review](https://file.dxscx.com/udacity/review_3.jpg)
- - ![review](https://file.dxscx.com/udacity/review_5.jpg)
- - ![review](https://file.dxscx.com/udacity/review_6.jpg)
- - ![review](https://file.dxscx.com/udacity/review_7.jpg)
+ - ![review](http://file.dxscx.com/udacity/review_1.jpg)
+ - ![review](http://file.dxscx.com/udacity/review_2.jpg)
+ - ![review](http://file.dxscx.com/udacity/review_3.jpg)
+ - ![review](http://file.dxscx.com/udacity/review_5.jpg)
+ - ![review](http://file.dxscx.com/udacity/review_6.jpg)
+ - ![review](http://file.dxscx.com/udacity/review_7.jpg)
  - **1对1太棒**
  - 先贴两张邮件图，这也是Udacity感动我的地方,保护老师隐私，我就把老师邮件地址给摸了，没摸自己的，是想让你给我发邮件哈，哈哈哈哈,其实我说英语我怕不是特别标准我怕老师听不懂，我很少和老外口语交流，这方面不是特别自信，不过老师还是很多时候能听懂我，以后我每周要1-1一次，多划算呀，哈哈
- - ![1-1](https://file.dxscx.com/udacity/1-1_meeting.png)
+ - ![1-1](http://file.dxscx.com/udacity/1-1_meeting.png)
  - **坚持跟踪反馈**（`时隔几天，老师再次来信，我受宠若惊，再次感动`）
- - ![review](https://file.dxscx.com/udacity/1-1_rewrite_1.jpg)
- - ![review](https://file.dxscx.com/udacity/1-1_send_1.jpg)
+ - ![review](http://file.dxscx.com/udacity/1-1_rewrite_1.jpg)
+ - ![review](http://file.dxscx.com/udacity/1-1_send_1.jpg)
  - **没想到老师又回复我了，还鼓励我，大爱呀，我会好好学习的！**
- - ![review](https://file.dxscx.com/udacity/1-1_rewrite_2.jpg)
+ - ![review](http://file.dxscx.com/udacity/1-1_rewrite_2.jpg)
 4. ### 关于学习方式我想说 ###
  - **看官方文档**（这部分其实算是课程质量的一部分，为什么我单独拿出来说？因为这是技术人的根本）
  - 其实不管是在哪里学习，学校也好，慕课网也好，Udacity也好，学到后面更多的是需要你自己去发现知识，探索知识，解决问题。
  - 看老师就是带我们去各种看官方文档，这才是最专业的学习方式，**因为到后面你不需要任何“二手资料”，学习官方文档就是独立学习技术的开始**。
  - 不多说贴图：
- - ![document](https://file.dxscx.com/udacity/document_1.jpg)
- - ![document](https://file.dxscx.com/udacity/document_2.jpg)
+ - ![document](http://file.dxscx.com/udacity/document_1.jpg)
+ - ![document](http://file.dxscx.com/udacity/document_2.jpg)
 
 ## 视野 ##
 确实带给了我很多不一样的东西，像以前就是听说什么Github、StackOverflow、Linkedin等等一流的东西，在我最初的想象中他们可能也就那样吧，我以前在想，我会用SVN团队开发我为什么要用你的Github,我会百度问题我为什么还要用StackOverflow,我会百度，我为什么还要用Google。现在想想以前的想法还是不够成熟，也许这也就是证明技术能力或者说是解决问题的能力又或者说是视野变了吧。
@@ -138,9 +138,9 @@ Third Project- **Multi User Blog**(Not Finished)
 ## 坚持分享 ##
 -坚持分享是技术人成长的根本，我在我们学校的一个班上，很多时候都会在很多人的会上分享技术，分享学习方法，所以我也感谢那个群体，让一个非常害羞，不善言谈的我现在能在很多人的面前“健谈”起来，你会感受到你自己成长，会带给你更多更多。
 -这是我前段时间在Udacity中国区交流群中的截图，只是部分，我学习的是《全栈工程师》，他们遇到的Android问题我一样会力所能及的帮助，以为我半年前就开始学Android了，自己也踩过很多坑，我想说明的是多帮助别人，你会收获更多，我在学校真的能帮助很多班上的同学，不，错了，不仅仅是班上的同学，应该是很多人都帮助过，包括学长学姐，**帮助人是因，你快乐是果，你成长是果**
-- ![document](https://file.dxscx.com/udacity/share_1.png)
-- ![document](https://file.dxscx.com/udacity/share_2.png)
-- ![document](https://file.dxscx.com/udacity/share_3.png)
+- ![document](http://file.dxscx.com/udacity/share_1.png)
+- ![document](http://file.dxscx.com/udacity/share_2.png)
+- ![document](http://file.dxscx.com/udacity/share_3.png)
 
 ## 最后说几句 ##
 
@@ -153,7 +153,7 @@ Third Project- **Multi User Blog**(Not Finished)
  - **贴一张我刚免费得到的票，看到那个David了吗？就是我**
  - **我没想到的是这么多陌生人给我点赞，也感受到了大家的爱。所以大家一定要热爱技术，一定要有一个热爱的东西。加油**
  
- - ![document](https://file.dxscx.com/udacity/android.png)
+ - ![document](http://file.dxscx.com/udacity/android.png)
 
 
 我以前也在慕课网，极客学院等众多学习视频网站学习，同样也看很多书籍，从来没有Udacity这种快感，能学习技术的同时还能学习英语，还有我一直有出国学习的愿望，希望这也能离自己想的越来越近，这是能让自己感到快乐的学习方式，所以我在坚持学习。
